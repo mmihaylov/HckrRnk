@@ -3,6 +3,10 @@ using System.Collections.Generic;
 
 namespace Challenges
 {
+    /// <summary>
+    /// URL
+    /// Easy|Medium|Hard
+    /// </summary>
     public class ChallengeTemplate
     {
         public void Test()

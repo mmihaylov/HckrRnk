@@ -3,11 +3,12 @@ using System.Collections.Generic;
 
 namespace Challenges
 {
+    /// <summary>
+    /// https://www.hackerrank.com/challenges/minimum-swaps-2/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays
+    /// Medium
+    /// </summary>
     public class MinimumSwaps2
-    {
-        // URL: https://www.hackerrank.com/challenges/minimum-swaps-2/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays
-        // Return the minimum number of swaps to order the array
-
+    {        
         public void Test()
         {
             Console.WriteLine(this.GetType().Name);
