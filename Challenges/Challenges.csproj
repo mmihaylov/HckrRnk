@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arrays\ArrayManipulation.cs" />
+    <Compile Include="Helpers.cs" />
     <Compile Include="WarmUp\JumpingOnClouds.cs" />
     <Compile Include="WarmUp\RepeatingString.cs" />
     <Compile Include="WarmUp\CountingValleys.cs" />
