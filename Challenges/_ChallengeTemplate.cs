@@ -25,10 +25,11 @@ namespace Challenges
                 Console.WriteLine("Test case {0}", i + 1);
                 Console.WriteLine("Input: {0}", string.Join(" ", testCases[i]));
                 int result = Play(testCases[i]);
-                Console.WriteLine("Result: {0}{1}", result, Environment.NewLine);
+                Console.WriteLine("Result: {0}", result);
+                Console.WriteLine();
             }
 
-            Console.ReadLine();
+            Console.ReadKey();
         }
 
         public int Play(int[] arr)

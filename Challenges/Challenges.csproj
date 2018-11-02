@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Arrays\ArrayManipulation.cs" />
+    <Compile Include="DictionariesAndHashmaps\RansomNote.cs" />
+    <Compile Include="DictionariesAndHashmaps\SherlockAndAnagrams.cs" />
+    <Compile Include="DictionariesAndHashmaps\TwoStringsCommonSubstring.cs" />
     <Compile Include="Helpers.cs" />
     <Compile Include="WarmUp\JumpingOnClouds.cs" />
     <Compile Include="WarmUp\RepeatingString.cs" />

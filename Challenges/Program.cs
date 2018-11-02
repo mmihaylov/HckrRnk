@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            new ArrayManipulation().Test();
+            new SherlockAndAnagrams().Test();
         }        
     }
 }
