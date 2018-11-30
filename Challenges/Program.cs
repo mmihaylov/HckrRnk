@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            new SherlockAndAnagrams().Test();
+            new FrequencyQueries().Test();
         }        
     }
 }

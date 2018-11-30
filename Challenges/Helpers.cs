@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Challenges
 {
@@ -46,6 +47,28 @@ namespace Challenges
                 Console.Write(prefix);
 
             Console.WriteLine(string.Join(" ", arr));
+        }
+
+        public static string ArrayToString<T>(T[] arr)
+        {
+            return ArrayToString(arr, -1);
+        }
+
+        public static string ArrayToString<T>(T[] arr, int maxIndexBoundaryToPrint)
+        {
+            if (maxIndexBoundaryToPrint > 0)
+            {
+                return string.Format("[{0} ...]", string.Join(", ", arr.Take(maxIndexBoundaryToPrint)));  
+            }
+            else
+            {
+                return string.Format("[{0}]", string.Join(", ", arr));
+            }
+        }
+
+        public static string ListToString<T>(List<T> list)
+        {
+            return string.Join(", ", list);
         }
 
         public static int GetCharAsPrimeNumber(char c)
